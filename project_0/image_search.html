@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Search</title>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+        <section>
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <a class="navbar-brand" href="index.html">Google</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                  <ul class="navbar-nav">
+                    <li class="nav-item">
+                      <a class="nav-link" href="google_search.html">Google Search</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="image_search.html" disabled>Image Search</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="advanced_search.html">Advanced Search</a>
+                    </li>
+                  </ul>
+                </div>
+              </nav>
+        </section>
+
+        <section style="text-align:center; height: 75px;">
+            <div class="Google_logo">Google</div>
+            <form action="https://www.google.com/search">
+                <div>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+                  <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
+                  </svg>
+                  <input type="text" name="q" >
+                </div>
+                <input name="sca_esv" value="567769929" type="hidden">
+                <input name="hl" value="vi" type="hidden">
+                <input name="authuser" value="0" type="hidden">
+                <input name="tbm" value="isch" type="hidden">
+                <input name="sxsrf" value="AM9HkKk-YlzV9qYWnnPyluIB7lYagJtt_w:1695443023184" type="hidden">
+                <input name="source" type="hidden" value="hp">
+                <input name="biw" type="hidden">
+                <input name="bih" type="hidden">
+                <input value="T2gOZb3wCOOD2roP8-OKyA0" name="ei" type="hidden">
+                <input value="AO6bgOgAAAAAZQ52XyMNRYsPnedtHHhidkT89qeNRtff" name="iflsig" type="hidden">
+
+                <div>
+                    <button type="submit">Image Search</button>
+                </div>
+            </form>
+        </section>
+    </body>
+</html>
